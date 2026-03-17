@@ -1,0 +1,12 @@
+[workspace]
+authors = ["manetti19 <manetti.biazon@ime.eb.br>"]
+channels = ["conda-forge"]
+name = "progcart_manetti"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pyqt = ">=5.15.11,<6"
+qgis = ">=3.44.7,<4"
